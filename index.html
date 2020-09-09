@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>[DRAFT] W3C Workshop on Wide Color Gamut and High Dynamic Range for the Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta name="twitter:site" content="@w3c">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:title" content="W3C Workshop on Rich Media Experiences on the Web">
+    <meta property="og:description" content="@@">
+    <meta property="og:image" content="@@">
+  </head>
+  <body>
+    <header class="header">
+      <div id="banner">
+        <div>
+          <p>
+            <a href="https://www.w3.org/"><img alt="W3C" src=
+            "media/w3c_home_nb-v.svg" height="48" width="72"></a>
+          </p>
+          <h1>
+            <span class="todo">[DRAFT]</span> W3C Workshop on Wide Color Gamut and High Dynamic Range for the Web
+          </h1>
+          <p>
+            A virtual event with pre-recorded talks and interactive sessions, <span class="todo">April 2021</span>
+          </p>
+        </div>
+      </div>
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a class="active-tab">Call for Participation</a>
+          </li>
+          <li>
+            <a href="speakers.html">Apply as a speaker</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="box" id="important">
+      <h2 class="footnote">
+        Virtual event!
+      </h2>
+      <p>
+        This workshop will be a 100% virtual event with both pre-recorded talks and interactive sessions.
+      </p>
+    </aside>
+    <aside class="box" id="dates">
+      <h2 class="footnote">
+        Important Dates
+      </h2>
+      <dl>
+        <dt><span class="todo">TBD</span></dt>
+        <dd>Deadline to <a href="speakers.html#submit">submit a proposal for a talk</a></dd>
+        <dt><span class="todo">TBD</span></dt>
+        <dd>Speakers acceptance notification</dd>
+        <dt><span class="todo">TBD</span></dt>
+        <dd>Deadline for selected speakers to <a href="speakers.html#how">provide their recorded talks</a></dd>
+        <dt><span class="todo">TBD</span></dt>
+        <dd>Deadline to <span class="todo">register as workshop participant</span></dd>
+        <dt><span class="todo">TBD</span></dt>
+        <dd>Public release of all accepted talks</dd>
+        <dt><span class="todo">TBD</span></dt>
+        <dd>Series of 4-5 virtual live sessions</dd>
+      </dl>
+    </aside>
+    <aside class="box" id="submit">
+      <h2 class="footnote">
+        Give a talk at the workshop!
+      </h2>
+      <p>
+        If you think you have a perspective on interactive media experiences on the Web worth sharing with the broader community, we would love to hear from you! See our speakers information to learn how to submit a talk and what we will expect from you if you are selected.
+      </p>
+    </aside>
+    <aside class="box" id="sponsors">
+      <h2 class="footnote">
+        Sponsors
+      </h2>
+      <p class="todo">TBD</p>
+    </aside>
+    <main id="main" class="main">
+      <section id="home">
+        <p class="todo">
+          This is an <b>unofficial draft</b> call for participation to an <b>unconfirmed</b> W3C Workshop on Wide Color Gamut and High Dynamic Range for the Web.
+        </p>
+        <section id="intro">
+          <h2 id="goals">
+            What is the purpose of this workshop?
+          </h2>
+          <p>The primary goal of the workshop is to bring together browser vendors, content creators, color scientists, and experts in other relevant areas (e.g. accessibility, scripting, security, web) <b>to converge on technologies for enabling WCG and HDR</b> on the Open Web Platform.</p>
+
+          <p>The secondary goals of the workshop are as follows:</p>
+          <ul>
+            <li>To share experiences and strategies for color-correct rendering of images, video, 3D content and Web (HTML/SVG/CSS) content, on the Open Web Platform.</li>
+            <li>To identify roadblocks or built-in assumptions (such as 8 bits per component, RGB-only, SDR-only) which impede further progress.</li>
+            <li>To examine which scripting interfaces and APIs are needed for WCG and HDR support</li>
+            <li>To propose Web-compatible but future-proof extension mechanisms to enable WCG and HDR.</li>
+            <li>To share priorities from content creators, as to what features they need to develop compelling content.</li>
+            <li>To share strategies for adding HDR and mixed HDR/SDR content to a platform with emerging, inconsistently-deployed HDR support.</li>
+            <li>To examine Accessibility impacts of highly saturated colors and very high contrast ranges.</li>
+            <li>To plan a standardization roadmap (at W3C and at other SDOs) that maximizes the chance of sucessful, near to mid term deployment.</li>
+          </ul>
+
+        </section>
+        <section>
+          <h2 id="topics">
+            Which topics will be covered?
+          </h2>
+
+          <p>The following topics have been proposed, along with references to relevant specifications and documents. Please <a href=
+            "https://github.com/w3c/web-wcg-hdr-workshop/">submit a pull request or raise an issue on GitHub</a> to provide feedback and suggest further workshop topics. You may also email Chris Lilley &lt;<a href="mailto:chris@w3.org">chris@w3.org</a>&gt;.</p>
+
+          <section>
+            <h3 id="wcg">Wide Color Gamut on the Web</h3>
+            <ul>
+              <li>WCG serialization and the CSS Object Model</li>
+              <li>A WCG-capable Color object for the CSS Typed Object Model</li>
+              <li>Canvas and WCG support</li>
+              <li>WCG and WebGPU</li>
+            </ul>
+
+            <section class="references">
+              <h4 id="wcg-ref">Some relevant documents</h4>
+              <ul>
+                <li><a href="https://drafts.csswg.org/css-color-4/">CSS Color Module Level 4</a> adds color-managed WCG support, but RGB and CMYK, to CSS.</li>
+                <li><a href="https://drafts.csswg.org/css-color-5/">CSS Color Module Level 5</a> adds color mixing and color modification functions to CSS, using CIE LCH as the primary model.</li>
+                <li><a href="https://drafts.csswg.org/mediaqueries-5/">Media Queries Level 5</a> enables conditional support based on color gamut and dynamic range capabilities</li>
+              </ul>
+            </section>
+          </section>
+
+          <section>
+            <h3 id="HDR">High Dynamic Range on the Web</h3>
+
+            <ul>
+              <li>Detecting and using HDR support for video and for other Web content</li>
+              <li>Consuming HDR content in non-standard viewing conditions</li>
+              <li>Compositing HDR and SDR content</li>
+              <li>ICC profiles and HDR content</li>
+              <li>non-ICC color management approaches for media</li>
+              <li>AVIF, a static and animated image format for HDR content</li>
+            </ul>
+
+            <section class="references">
+              <h4 id="hdr-ref">Some relevant documents</h4>
+              <ul>
+                <li><a href="https://netflixtechblog.com/enhancing-the-netflix-ui-experience-with-hdr-1e7506ad3e8">Enhancing the Netflix UI Experience with HDR</a> examines requirements for an HDR capable image format needed for content delivery.</li>
+              <li><a href="https://drafts.csswg.org/css-color-hdr/">CSS Color HDR Module Level 1</a> proposes HDR extensions to CSS</li>
+              </ul>
+            </section>
+          </section>
+
+
+          <section>
+            <h3 id="landscape">WCG and HDR Standardization Landscape</h3>
+            <p>Building on the previous topics, goal is to hold a plenary discussion on color standards on the Web:</p>
+            <ul>
+              <li>Who is doing what: ongoing work across standardization organisations (SDO)</li>
+              <li>Standardization priorities and roadmap</li>
+            </ul>
+
+            <section class="references">
+              <h4 id="landscape-ref">Some relevant documents</h4>
+              <ul>
+                <li><a href="https://w3c.github.io/ColorWeb-CG/">High Dynamic Range and Wide Gamut Color on the Web</a> a gap analysis</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+
+        <section>
+          <h2 id="attendance">
+            How can I attend?
+          </h2>
+          <p>Attendance is <b>free</b> for all invited participants and is open to the public, whether or not W3C members.</p>
+          <p>Please register for the event before <span class="todo">@@@</span> to be notified of the videos availability, of the forum set up to facilitate discussion among registered participants, and of the logistics for the interactive sessions. The Program Committee will only accept participants whose registration data shows relevance to the topic of the workshop.</p>
+
+          <p>Our aim is to get a diversity of attendees from a variety of industries and communities, including:</p>
+          <ul>
+            <li>Color Technology groups</li>
+            <li>Experts in verticals and delivery</li>
+            <li>Content owners and enabling technology providers (encoding and authoring tool makers)</li>
+            <li>Distributors and distribution enablers (e.g. CDNs)</li>
+            <li>Media devices manufacturers (TV sets, VR/AR headsets)</li>
+            <li>Browser vendors</li>
+            <li>Experts in relevant technologies (accessibility, color science, media, scripting, security, web)</li>
+          </ul>
+          <p>This workshop, as other W3C meetings, operates under its <a href="https://www.w3.org/Consortium/cepc/">Code of Ethics and Professional Conduct</a>.</p>
+        </section>
+        <section>
+          <h2 id="position-statement">
+            How can I suggest a presentation?
+          </h2>
+          <p>To submit a talk for the workshop, please refer to our information for speakers.</p>
+        </section>
+        <section>
+          <h2 id="w3c">
+            What is W3C?
+          </h2>
+          <p>
+            W3C is a voluntary standards consortium that convenes companies and
+            communities to help structure productive discussions around existing
+            and emerging technologies, and offers a Royalty-Free patent framework
+            for Web Recommendations. We focus primarily on client-side (browser)
+            technologies, and also have a mature history of vocabulary (or
+            “ontology”) development. W3C develops work based on the priorities of
+            our members and our community.
+          </p>
+        </section>
+        <section>
+          <h2 id="program">
+            Program
+          </h2>
+          <h3 id="committee">
+            Program Committee
+          </h3>
+
+          <h4>Chair</h4>
+          <ul>
+            <li>Chris Lilley, W3C</li>
+          </ul>
+
+          <h4>Committee</h4>
+          <ul>
+            <li>Chris Bai, BenQ. Co-chair of ICC Displays WG.</li>
+            <li>Dr. Phil Green, NTNU. ICC Technical Secretary.</li>
+            <!-- <li>Cyril Concolato, Netflix?</li> -->
+            <!-- <li>Luke Wallis, Apple. Chair of ICC HDR Working Group.</li> -->
+            <!-- <li>Dr. Reem El Asaleh, Ryerson University</li> -->
+          </ul>
+        </section>
+        <section>
+          <h3>
+            Sponsors
+          </h3>
+          <p class="todo">TBD</p>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+      <p>
+        W3C is proud to be an open and inclusive organization, focused on
+        productive discussions and actions. Our <a href=
+        "https://www.w3.org/Consortium/cepc/">Code of Ethics and Professional
+        Conduct</a> ensures that all voices can be heard. Questions? Contact Chris Lilley &lt;<a href=
+        "mailto:chris@w3.org">chris@w3.org</a>&gt;.
+      </p>
+      <p>
+        Suggestions for improving this workshop page, such as fixing typos or
+        adding specific topics, can be made by opening a <a href=
+        "https://github.com/w3c/web-wcg-hdr-workshop">pull request on GitHub</a>, or by
+        emailing Chris Lilley &lt;<a href=
+        "mailto:chris@w3.org">chris@w3.org</a>&gt;.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
