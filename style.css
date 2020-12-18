@@ -65,6 +65,19 @@ h3 + section > h4 {
   margin-top: 1.5rem;
 }
 
+#banner-image {
+  position: relative;
+}
+#banner-image h1 {
+  color: white;
+  position: absolute;
+  text-align: right;
+  right: 1em;
+  top: 1.5em;
+  font-size: 240%;
+  line-height: 1.6em;
+}
+
 ol {
   margin-left: 1.1em;
 }

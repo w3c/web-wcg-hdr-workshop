@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>[DRAFT] W3C Workshop on Wide Color Gamut and High Dynamic Range for the Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta name="twitter:site" content="@w3c">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:title" content="W3C Workshop on Wide Color Gamut and High Dynamic Range for the Web">
+    <meta property="og:description" content="@@">
+    <meta property="og:image" content="@@">
+  </head>
+  <body>
+    <header class="header">
+      <div id="banner">
+        <div>
+          <p>
+            <a href="https://www.w3.org/"><img alt="W3C" src=
+            "media/w3c_home_nb-v.svg" height="48" width="72"></a>
+          </p>
+          <div id="banner-image">
+            <img src="media/banner.png" alt="">
+            <h1>
+              W3C Workshop <br>on Wide Color Gamut<br> and High Dynamic Range<br> for the Web
+            </h1>
+        </div>
+          <p>
+            A virtual event with pre-recorded talks and interactive sessions, April-May 2021
+          </p>
+        </div>
+      </div>
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a class="active-tab">Overview</a>
+          </li>
+          <li>
+            <a href="index.html">Call for Participation</a>
+          </li>
+          <li>
+            <a href="speakers.html">Apply as a speaker</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="box" id="important">
+      <h2 class="footnote">
+        Virtual event!
+      </h2>
+      <p>
+        This workshop will be a 100% virtual event with both pre-recorded talks and interactive sessions.
+      </p>
+    </aside>
+    <main id="main" class="main">
+      <section id="home">
+        <section>
+          <h2 id="intro">Introduction</h2>
+          <p>Since 1996, color on the Web has been locked into
+              a narrow-gamut, low dynamic-range colorspace called
+              <em>sRGB</em>. Originally derived from a standard for
+              broadcast High Definition Television (HDTV)
+              and intended to be a lowest common denominator for interoperability,
+              it has since become an increasing burden to creative expression
+              and a key differentiator between the web, on the one hand,
+              and native applications and entertainment devices
+              which have kept up with, indeed driven, advances in technology.
+          </p>
+          <p>
+            Display technologies have vastly improved since the bulky,
+            cathode-ray tube displays of the 1990s.
+            The most obvious change is display resolution,
+            but the range of displayable colors (the <em>gamut</em>),
+            accompanied by a reduction in reflected glare
+            and an increase in <em>dynamic range</em>, are also notable.
+          </p>
+        </section>
+        <section>
+          <h2 id="wcg">Wide Color Gamut</h2>
+          <p>
+              Colors more vivid than a typical display are common in nature.
+              The varied orange hues of a spectacular sunset,
+              the irridescent blues and greens ofa butterfly or a bird's wing,
+              the colors in a firework display,
+              even the colors seen in ordinary grass, lie outside the sRGB gamut.
+          </p>
+          <p>
+              At first, displays that could show brigher, more saturated colors
+              than typical displays were costly, high-end devices used by
+              graphic designers and professional photographers.
+              Over the last five years however the prices have come down
+              and the quality has gone up.
+              An emerging standard in consumer electronics devices
+              such as tablets, TVs, phones, and laptops is
+              <em>display P3</em>, derived from a standard for
+              Digital Cinema projectors (DCI P3).
+              It can display <strong>50% more colors</strong> than sRGB.
+            </p>
+            <p>
+                Meanwhile the movie and TV industries have moved
+                beyond P3 to an even wider-gamut colorspace,
+                ITU Rec BT.2020, which can display an astonishing
+                <strong>150% more colors</strong> than sRGB.
+                Professional displays used in color grading movies
+                can display 90% or more of the 2020 gamut;
+                history shows that similar capabilities
+                will become available in the consumer market soon.
+            </p>
+            <p>
+                The Web needs to provide access to these colors -
+                not just for video or images, but for everyday Web content.
+            </p>
+        </section>
+        <section>
+          <h2 id="hdr">High Dynamic Range</h2>
+          <p>
+              The human eye can perceive a vast range of brightnesses,
+              from dimly-seen shapes under moonlight
+              to the glare of sunlight reflected from metallic surfaces.
+              This is termed the <em>dynamic range</em> and is masured
+              by the luminance of the brightest displayable white,
+              divided by the luminance of the deepest black.
+              sRGB, with a peak luminance of 80 cd/m²,
+              has a viewing flare of 5% (4 cd/m²)
+              giving a total dynamic range of 20x.
+            </p>
+            <p>
+                Display P3, which is often used with a peak white luminance
+                of around 200 cd/m² and a black luminance of 0.80 cd/m²,
+                has a total dynamic range of 250.
+                The limits are set by power consumption and heating,
+                if the entire display is set to the maximum brightness white;
+                and also user comfort, as the white is a typical background for text
+                and represents a "paper white" or "media white".
+                In the broadcast industry, this is termed
+                <em>standard dynamic range</em> (SDR).
+                It falls far short of what the human eye can perceive.
+            </p>
+            <p>
+                In nature, very bright object occupy a very small fraction
+                of the visual field.
+                Also, we can see detail in an almost dark room.
+                By taking advantage of these two aspects - <em>scene by scene lightness changes</em> and <em>localized highlights</em>,
+                a display can produce a wider dynamic range by
+                turning down the backlight in dark scenes
+                and turning it up in bright ones;
+                in addition, if each small portion of the screen as it's own backlight,
+                small highlights much brighter than a paper white can be produced,
+                for a small area and for a small time.
+            </p>
+            <p>
+                As an example, the broadcast standard ITU BT.2100,
+                with the PQ electro-optical transfer function,
+                will display a paper white at around 200 cd/m².
+                But the deepest black is 0.001 cd/m²;
+                and the peak, short-term, small-area white
+                is 10,000 cd/m² giving a total dynamic range of
+                ten million.
+                While this is a theoretical peak,
+                reference monitors with peak luminance of 1,000 cd/m²
+                to 4,000 cd/m² are in widespread use for movie and TV production.
+                Consumer devices with peak luminances of 500 to 1200 cd/m²
+                are becoming common.
+                This is called High Dynamic Range (HDR).
+            </p>
+            <p>
+                HDR is in widespread daily use for the delivery of streaming movies,
+                broadcast television, on gaming consoles,
+                and even for the recording and playback of HDR movies on high-end modile phones. It is also starting to be used for still images.
+                The Web, meanwhile, is currently stuck with Standard Dynamic Range.
+            </p>
+        </section>
+        <section>
+          <h2 id="std">Standardization</h2>
+          <p>
+              It is all very well to complain that consumer entertainment
+              technology is far in advance of the Web, but what can be done about it?
+              Are  entirely new standards needed,
+              or can existing ones be smoothly extended,
+              adding capabilities already common in the broadcast industry?
+          </p>
+          <p>
+              In addition, we need to compare like with like.
+              The experience of watching a blockbuster movie
+              in a darkened room with a home theatre setup,
+              or watching a live sports broadcast inside under afternoon daylight,
+              or catching news items on a phone while commuting in broad daylight,
+              are necessarily different.
+              Just as we are used to reponsive Web designs
+              that adjust to different display reolutions,
+              content for the Web needs to adaptable for different gamuts,
+              different peak luminances,
+              and a very wide range of viewing conditions.
+          </p>
+        </section>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <p>
+        W3C is proud to be an open and inclusive organization, focused on
+        productive discussions and actions. Our <a href=
+        "https://www.w3.org/Consortium/cepc/">Code of Ethics and Professional
+        Conduct</a> ensures that all voices can be heard. Questions? Contact François Daoust &lt;<a href=
+        "mailto:fd@w3.org">fd@w3.org</a>&gt;.
+      </p>
+      <p>
+        Suggestions for improving this workshop page, such as fixing typos or
+        adding specific topics, can be made by opening a <a href=
+        "https://github.com/w3c/web-wcg-hdr-workshop">pull request on GitHub</a>, or by
+        emailing Chris Lilley &lt;<a href=
+        "mailto:chris@w3.org">chris@w3.org</a>&gt;.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
