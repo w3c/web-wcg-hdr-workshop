@@ -1,0 +1,35 @@
+Dear Advisory Committee Representative,
+Chairs,
+
+W3C is pleased to call for participation in:
+
+        W3C Workshop on Wide Color Gamut (WCG)
+        and High Dynamic Range (HDR) for the Web
+        April-May 2021, Virtual Event
+        https://www.w3.org/Graphics/Color/Workshop/
+
+The primary goal of the workshop is to bring together browser vendors,
+content creators, color scientists, and experts in other relevant areas
+(e.g. accessibility, scripting, security, web) to converge on technologies
+for enabling WCG and HDR on the Open Web Platform.
+
+The event will be organized as a combination of pre-recorded talks
+(expressions of interest are due 30 January, with recorded talks to
+be submitted by 15 March 2020) followed by online issue raising on GitHub,
+and culminating in a series of live sessions in
+April and May, organized around three main themes:
+* Wide Color Gamut on the Web
+* High Dynamic Range on the Web
+* WCG and HDR Standardization Landscape
+
+Attendance is free for all invited participants and is open to the
+public, whether or not W3C members.
+
+For more information on the workshop, please see the workshop details
+and submission instructions:
+https://www.w3.org/Graphics/Color/Workshop/
+https://www.w3.org/Graphics/Color/Workshop/index.html
+https://www.w3.org/Graphics/Color/Workshop/speakers.html
+
+If you have any questions, please contact organizer
+Chris Lilley <chris@w3.org>.
