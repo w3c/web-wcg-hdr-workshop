@@ -67,15 +67,27 @@ h3 + section > h4 {
 
 #banner-image {
   position: relative;
+  /* background: url("media/banner.svg") no-repeat 0 0 / contain #444; */
+  background: url("media/colour-small.png") no-repeat 0 0,
+              url("media/colour-slice.png");
+  background-size: auto 100%;
+  padding: 1.2em 2em;
 }
+
+@media (max-width: 520px) {
+  #banner-image br:not(:last-of-type) {
+    display: none;
+  }
+}
+
 #banner-image h1 {
+  margin: 0;
   color: white;
-  position: absolute;
   text-align: right;
-  right: 1em;
-  top: 1.5em;
   font-size: 240%;
-  line-height: 1.6em;
+  font-size: min(150% + 1vw, 240%);
+  line-height: 1.4;
+  letter-spacing: -.01em;
 }
 
 ol {
