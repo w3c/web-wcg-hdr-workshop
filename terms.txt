@@ -1,5 +1,3 @@
-
-
 absolute colorimetry
 absolute luminance
 abstract profile
@@ -8,6 +6,7 @@ adaptive
 ambient illuminance
 appearance
 arbitrary illuminant
+back-buffer
 bit depth
 black level
 calculator element
@@ -27,29 +26,38 @@ color matching
 color matching function
 color proofing
 color temperature
+color volume
 colorimetric
 colorimetry
 colorspace
 colorspace tagging
+composited
 compositing
 computational complexity
 concept art
+context
 conversion
 Coons Patch
+CTA 861
 curves
 custom observer
-De Casteljau algorithm
+De Casteljau's algorithm
 DeviceN
 DirectX
+display EDID
 display-referred
 DisplayPort
 Dolby Vision
+drawing buffer (or draw buffer, both terms used)
 embedded color profile
 encoding
 environment variables
-extended range colorspace and display ICS
+extended range, colorspace and display ICS
 fixed point
 floating point
+full-canvas blit
+full-screen content
+game engine
 gamma   (exponent in a power law. do not confuse with gamut)
 gamut   (range of colors a device can render. do not confuse with gamma)
 gamut mapping
@@ -64,12 +72,19 @@ HDR Reference monitor
 HDR-friendly
 highlights
 illuminant
+immediate-mode
 interoperable
 interpolation
+ITU-T Recommendation H.273
+JavaScript
 Lab (capital L, short for CIE L*a*b*)
+lean back environment
 legacy
+linear-gamma space
 look-up table
 luminance
+luminance brackets
+mastering conditions
 matrices
 matte painting
 media queries
@@ -77,6 +92,7 @@ media whitepoint
 Mesh gradient
 mid-tones
 multi-processing element
+multi-sample frame buffer
 n-D look-up processing element
 near-spectral
 nits
@@ -85,18 +101,23 @@ observer metamerism
 PANTONE (commercial color system, all caps)
 perceptual
 perceptual intent
+physically-based rendering
 pixel
-PlayReady digital rights management
+PlayReady digital rights management (capital P and R)
+point cloud
 PostScript (a graphics description language. Capital P and S)
 primaries
 profile
 profile connection space
+real-time compositing
 Rec 2020 (also BT.2020, same thing)
 Rec 2100 (also BT.2100, same thing)
 Rec 2390 (also BT.2390, same thing)
+Rec 709 (also BT.709, same thing)
 relative colorimetry
 relative intent
 rendering pipeline
+resolve frame buffer
 reverse tone-mapping
 samples
 sampling order
@@ -104,6 +125,8 @@ saturation
 saturation intent
 scene-referred
 sigmoid
+SMPTE Standard 2086
+spatially and temporally mixed media
 spectral re-modelling
 spectral reflectance
 speculars
@@ -112,9 +135,17 @@ stack-based
 stack-overflow
 standard 2-degree observer
 standard observer
+swap chain
+temporally mixed media
 texture
 tone mapping
+tone-mapping engine
 transfer function
 transform
+Unity engine
+Web Assembly
+WebGL
+WebGPU
 white proofing
 whitepoint
+widescreen

@@ -1,6 +1,3 @@
-
-
-
 ACES    Academy Color Encoding System
 AV1 AOMedia Video 1
 AVIF    AV1 Image Format
@@ -13,6 +10,9 @@ CMYKOGV CMYK plus Orange, Green, Violet
 CSS Cascading Style Sheets
 D50 Daylight spectrum, 5000K color temperature
 D65 Daylight spectrum, 6500K color temperature
+EDID    Extended Display Identification Data
+EME Encrypted Media Extensions
+EOTF    Electro-Optical Transfer Function
 FOGRA   Forschungsgesellschaft für Druck- und Reproduktionstechnik
 GPU Graphics Processing Unit
 HDMI    High-Definition Multimedia Interface
@@ -28,8 +28,12 @@ ILM Industrial Light and Magic
 ISO International Standards Organization
 ITU International Telecommunication Union
 LCH Lightness, Chroma, Hue
+MSE Media Source Extensions
 OCIO    Open Color Input-Output
+OETF    Opto-Electrical Transfer Function
+OOTF    Opto-Optical Transfer Function
 OpenEXR File format by Industrial Light and Magic
+PBR physically-based rendering
 PCS Profile Connection Space
 PDF Portable Document Format
 PDF/A   PDF Accessibility
