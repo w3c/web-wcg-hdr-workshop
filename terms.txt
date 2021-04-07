@@ -1,0 +1,120 @@
+
+
+absolute colorimetry
+absolute luminance
+abstract profile
+adaptation
+adaptive
+ambient illuminance
+appearance
+arbitrary illuminant
+bit depth
+black level
+calculator element
+CalGray
+CalRGB
+canvas
+chromatic adaptation
+chrominance
+Chromium
+codec
+color appearance model
+color clipping
+color fidelity
+color grade
+color management
+color matching
+color matching function
+color proofing
+color temperature
+colorimetric
+colorimetry
+colorspace
+colorspace tagging
+compositing
+computational complexity
+concept art
+conversion
+Coons Patch
+curves
+custom observer
+De Casteljau algorithm
+DeviceN
+DirectX
+display-referred
+DisplayPort
+Dolby Vision
+embedded color profile
+encoding
+environment variables
+extended range colorspace and display ICS
+fixed point
+floating point
+gamma   (exponent in a power law. do not confuse with gamut)
+gamut   (range of colors a device can render. do not confuse with gamma)
+gamut mapping
+gamut volumes
+gradient
+graphics white
+HDR 10
+HDR 10+
+HDR Capable display
+HDR Mastering monitor
+HDR Reference monitor
+HDR-friendly
+highlights
+illuminant
+interoperable
+interpolation
+Lab (capital L, short for CIE L*a*b*)
+legacy
+look-up table
+luminance
+matrices
+matte painting
+media queries
+media whitepoint
+Mesh gradient
+mid-tones
+multi-processing element
+n-D look-up processing element
+near-spectral
+nits
+observer
+observer metamerism
+PANTONE (commercial color system, all caps)
+perceptual
+perceptual intent
+pixel
+PlayReady digital rights management
+PostScript (a graphics description language. Capital P and S)
+primaries
+profile
+profile connection space
+Rec 2020 (also BT.2020, same thing)
+Rec 2100 (also BT.2100, same thing)
+Rec 2390 (also BT.2390, same thing)
+relative colorimetry
+relative intent
+rendering pipeline
+reverse tone-mapping
+samples
+sampling order
+saturation
+saturation intent
+scene-referred
+sigmoid
+spectral re-modelling
+spectral reflectance
+speculars
+spot color
+stack-based
+stack-overflow
+standard 2-degree observer
+standard observer
+texture
+tone mapping
+transfer function
+transform
+white proofing
+whitepoint

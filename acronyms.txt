@@ -1,0 +1,44 @@
+
+
+
+ACES    Academy Color Encoding System
+AV1 AOMedia Video 1
+AVIF    AV1 Image Format
+BRDF    Bidirectional Reflectance Distribution Function
+CAT Chromatic Adaptation Transform
+CIE Commission Internationale de l´Eclairage
+CMM Color Management Module
+CMYK    Cyan, Magenta, Yellow and blacK
+CMYKOGV CMYK plus Orange, Green, Violet
+CSS Cascading Style Sheets
+D50 Daylight spectrum, 5000K color temperature
+D65 Daylight spectrum, 6500K color temperature
+FOGRA   Forschungsgesellschaft für Druck- und Reproduktionstechnik
+GPU Graphics Processing Unit
+HDMI    High-Definition Multimedia Interface
+HDR High Dynamic Range
+HEIF    High Efficiency Imafe file Format
+HLG Hybrid Log-Gamma
+HSV Hue, Saturation, Value
+HVS Human Visual System
+ICC International Color Consortium
+iccMAX  International Color Consortium next-generation (ICC.2)
+ICS Interoperability Conformance Specification
+ILM Industrial Light and Magic
+ISO International Standards Organization
+ITU International Telecommunication Union
+LCH Lightness, Chroma, Hue
+OCIO    Open Color Input-Output
+OpenEXR File format by Industrial Light and Magic
+PCS Profile Connection Space
+PDF Portable Document Format
+PDF/A   PDF Accessibility
+PDF/UA  PDF Universal Accessibility
+PNG Portable Network Graphics
+PQ  Perceptual Quantizer
+SDR Standard Dynamic Range
+sRGB    Standard Red Green Blue (small "s")
+SVG Scalable Vector Graphics
+W3C World Wide Web Consortium
+WCG Wide Color Gamut
+XYZ CIE XYZ colorspace
