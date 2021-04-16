@@ -146,6 +146,6 @@ Unity engine
 Web Assembly
 WebGL
 WebGPU
+white point
 white proofing
-whitepoint
 widescreen
