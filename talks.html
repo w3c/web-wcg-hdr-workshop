@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>W3C Workshop on Wide Color Gamut and High Dynamic Range for the Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <meta name="twitter:site" content="@w3c">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@svgeesus">
+    <meta name="twitter:title" content="W3C Workshop on WCG &amp; HDR for the Web">
+    <meta property="og:title" content="W3C Workshop on WCG &amp; HDR for the Web">
+    <meta name="twitter:image" content="https://www.w3.org/Graphics/Color/Workshop/media/twitter-banner.png">
+    <meta property="og:description" content="W3C Workshop on Wide Color Gamut (WCG) &amp; High Dynamic Range (HDR) for the Web">
+    <meta property="og:image" content="https://www.w3.org/Graphics/Color/Workshop/media/twitter-banner.png">
+    <style>
+        .main dd summary{
+            font-style: italic;
+            margin-left: 2em;
+        }
+        .main dt {
+            font-weight: bold;
+            color: #444;
+        }
+        #speakers article img {
+          width:300px;
+          max-width: 30vw;
+          float: left;
+          margin-right: 2em;
+          margin-bottom: 1em;
+          }
+        #speakers article {
+          clear: both;
+          margin-bottom: 2em;
+          margin-top:2em;
+        }
+
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div id="banner">
+        <div>
+          <p>
+            <a href="https://www.w3.org/"><img alt="W3C" src=
+            "media/w3c_home_nb-v.svg" height="48" width="72"></a>
+          </p>
+          <div id="banner-image">
+            <h1>
+              W3C Workshop<br> on Wide Color Gamut<br> and High Dynamic Range<br> for the Web
+            </h1>
+        </div>
+          <p>
+            A virtual event with pre-recorded talks and interactive sessions
+          </p>
+        </div>
+      </div>
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a href="overview.html">Overview</a>
+          </li>
+          <li>
+            <a href="cfp.html">Call for Participation</a>
+          </li>
+          <li><a class="active-tab">Talks</a></li>
+          <li>
+            <a href="speakers.html">Apply as a speaker</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="box" id="important">
+      <h2 class="footnote">
+        Virtual event!
+      </h2>
+      <p>
+        This workshop will be a 100% virtual event with pre-recorded talks,
+        online discussions, and interactive sessions.
+      </p>
+    </aside>
+
+    <main id="main" class="main">
+      <section id="home">
+        <p>
+          The talks at the  W3C Workshop on <a href="overview.html#wcg">Wide Color Gamut</a> (WCG) and <a href="overview.html#hdr"> High Dynamic Range</a> (HDR) for the Web are grouped into five thematic sections:
+        </p>
+      </section>
+
+      <section id="intro">
+          <h2>HDR Introduction</h2>
+          <dl>
+            <dt><a href="#cava">Zachary Cava</a> (Disney</dt>
+            <dd><details><summary>Keeping W3C Relevant in an HDR / WCG Living Room Environment</summary>
+              <p>Next generation multimedia formats such as HDR are being rapidly adopted in the Living Room Environment as consumers continue to upgrade their devices. This pace of adoption has outpaced our ability as an industry to define standardized and interoperable methods of handling these new formats leading to custom solutions and the fragmentation of the HTML ecosystem in this environment. In this talk we discuss the uniqueness of the Living Room Environment and aim to prompt a discussion on the best way for the W3C to re-engage and once again lead innovation in this environment.</p></details>
+            </dd>
+            <dt><a href="#cotton">Andrew Cotton</a> (BBC) </dt>
+            <dd><details><summary>An Introduction to Hybrid Log-Gamma HDR Part 1: Mixed Display and Viewing Environments</summary>
+                <p>The presentation will provide an overview of the HLG HDR system. It will show how HLG, as it is based on relative "scene-light", is well matched to the human visual system. The presentation will go on to explain how the HLG signal can be shown on a wide range of different brightness displays in different viewing environments, whilst preserving its appearance - particularly important for laptops, PCs and mobile phones.</p></details>
+            </dd>
+            <dt><a href="#bai">Chris Bai</a> (BenQ)</dt>
+            <dd><details><summary>How to Enable HDR Mode on Your HDR Compatible Monitor under Windows OS?</summary>
+              <p>Nowadays HDR compatible monitor is commonly available in the market, but very often, it is not possible to enable the HDR mode on the monitor in a desktop environment. In the talk, we will show you how to enable the HDR mode under Windows 10, so you could truly experience the benefit of HDR monitor without using a Blu-ray player. A true 10-bit display workflow versus 8-bit workflow will be compared under HDR curve to see the advantage of utilizing the 10-bit workflow. Although this is not as technical as the workshop proposed topics, I do believe this is an important topic to be discussed. There is no comprehensive source of information which delivers this kind of hands-on knowledge.</p></details>
+            </dd>
+          </dl>
+      </section>
+
+      <section id="color4">
+        <h2>WCG: CSS Color 4</h2>
+        <dl>
+          <dt><a href="#bremford">Mike Bremford</a> (BFO) </dt>
+            <dd><details><summary>CSS-Color-4 for Print</summary>
+            <p>A comparison of the CSS and PDF color spaces, and details of how CSS Color 4 was implemented for PDF output.</p></details>
+          </dd>
+          <dt><a href="#erias">Felipe Eria</a> (Igalia)</dt>
+            <dd><details><summary>The path towards richer colors in Chromium</summary>
+            <p>This talk will provide an overview of how color is handled and manipulated by the Chromium browser to paint different kinds of Web components, followed by a discussion of the changes that would be necessary in order to implement support for richer, higher-precision colors.</p></details>
+          </dd>
+          <dt><a href="#weining">Sam Weining</a> (Apple)</dt>
+          <dd><details><summary>How someone who knew nothing about color decided to reimplement all the color code in WebKit</summary>
+            <p>Discusses the implementation experience of expanding color space support in WebKit culminating in CSS Color 4 support for non-sRGB colors, and how that experience shaped my opinions on what needs to evolve in the web standards around color.</p></details>
+          </dd>
+          <dt><a href="#lilley">Chris Lilley</a> (W3C)</dt>
+          <dd><details>
+              <summary>Better than Lab? Gamut reduction CIE Lab &amp; OKLab</summary>
+            <p>Colors which are outside the gamut of the display device need to be mapped so that they are within the gamut. Although an industry standard for decades, CIE Lab is known to exhibit limitations such as over-estimating color difference with high-chroma colors (even with deltaE 2000), and a hue non-linearity in the blue-purple region. This talk reports on investigation of a newer opponent color space for gamut reduction of individual colors. This will inform browser implementations of gamut reduction, particularly if ICC profiles are not being used.</p></details>
+        </dd>
+        </dl>
+    </section>
+
+    <section id="canvas">
+        <h2>WCG & HDR: Canvas, WebGL, WebGPU</h2>
+        <dl>
+          <dt><a href="#cameron">Christopher Cameron</a> (Google)</dt>
+          <dd><details><summary>Canvas, WebGL, and WebGPU</summary>
+            <p>This talk will cover the proposed APIs for adding WCG and HDR support to Canvas, WebGL, and WebGPU</p></details>
+          </dd>
+          <dt><a href="#russell">Kenneth Russell</ (Google) &amp; <a href="#gilbert">Jeff Gilbert</a> (Mozilla) </dt>
+          <dd><details><summary>Deep Dive on HDR, WCG and Linear Rendering in WebGL and WebGPU</summary>
+            <p>This presentation will dive more deeply into the interactions between the lower-level WebGL and WebGPU rendering APIs, and the proposed additions of HDR, wide color gamut support, and linear rendering support to the web platform. The focus will be on the primitives that are exposed by graphics hardware, and ensuring that those are exposed to the web platform efficiently.</p></details>
+          </dd>
+        </dl>
+    </section>
+
+    <section id="manip">
+        <h2>WCG & HDR: Color manipulation</h2>
+        <dl>
+            <dt><a href="#verou">Lea Verou</a> (MIT)</dt>
+            <dd><details><summary>API Design for a colorspace-neutral Color object</summary>
+            <p>The Web platform is in dire need of a Color object, and it needs to be well designed and intuitive to use. It needs to support all the color formats and color spaces of CSS Color, HDR, conversion between color spaces, color adjustment in any color space, interpolation, gamut mapping, contrast calculation, among other things.</p>
+            <p>The sheer breadth of use cases means that this poses unique API design challenges. I took a stab at these challenges while co-developing a color library with Chris Lilley, Color.js. This presentation will describe some of the API design dilemmas that we faced while developing this library and the design decisions we made.</p></details>
+          </dd>
+          <dt><a href="#abebe">Mekides Assefa Abebe</a> (NTNU)</dt>
+          <dd><details><summary>Investigation of current color spaces for HDR content reproduction over the web</summary>
+            <p>Evaluation of PQ, HLG, Jzazbz, JzCzHz, and ICtCp color spaces in the context of rendering HDR content to SDR display and SDR content to HDR display with forward and reverse tone mapping.</p></details>
+          </dd>
+          <dt><a href="#derhak">Max Derhak</a> (Onyx Graphics)</dt>
+          <dd><details><summary>Using iccMAX for HDR color management</summary>
+            <p>The ICC is working on Interoperability Conformance Specifications (ICSs) for HDR color management using iccMAX. I propose reviewing the ICS workflows with possible extensions to provide performance, accuracy and desirable dynamic behavior.</p></details>
+          </dd>
+        </dl>
+    </section>
+
+    <section id="compos">
+        <h2>HDR: Compositing and creation</h2>
+        <dl>
+          <dt><a href="#"cotton>Andrew Cotton</a> (BBC)</dt>
+          <dd><details><summary>An Introduction to Hybrid Log-Gamma HDR Part 2: Format conversion and compositing</summary>
+            <p>The presentation will provide an overview of the HLG HDR system. It will illustrate how to composite SDR (sRGB) and HLG HDR content side-by-side, and show how the backwards compatible nature of the HLG signal allows it to be shown on SDR screens of different colour gamuts.            </p></details>
+          </dd>
+          <dt><a href="#kunkel">Timo Kunkel</a> (Dolby)</dt>
+          <dd><details><summary>Comparison of linear vs composited HDR pipelines</summary>
+            <p>
+              HDR pipelines for full-screen content such as movies and video are well established covering all parts of the pipeline such as content production, delivery and display. However, the pipeline elements required to successfully facilitate content that is composited in real-time is still in its infancy. Examples for such composited content are websites or graphical user interfaces that use markup language ‘recipes’ to assemble a set of independent content elements that might be encoded in different HDR and SDR formats into a cohesive presentation, both in SDR and HDR. This talk compares the different requirements and approaches and discusses the aspects that need to be considered to achieve a successful rendering pipeline.
+            </p></details>
+          </dd>
+          <dt><a href="#kazakov">Dmitry Kazakov</a> (Krita)</dt>
+          <dd><details><summary>HDR for 2D content creators: HDR support in Krita painting application</summary>
+            <p>Preparing HDR content from the user perspective:</p>
+              <ol>
+                <li>How users are expected to prepare HDR content for web.</li>
+                <li>What file formats are supported (in Krita) and what are their limitations.</li>
+                <li>ITU BT.2100 PQ EOTF extension for the PNG format. Fallback ICC profile.</li>
+                <li>Preparing HDR content while working on SDR hardware</li>
+              </ol>
+              <p>Technical topics:</p>
+              <ol>
+                <li>What HDR APIs are available for developers: DirectX supports that. OpenGL-based applications can use it through Google's Angle library.</li>
+                <li>Supported surface types.</li>
+              </ol>
+              <p>Technical problems for creator's applications development:</p>
+              <p>The standard for displays expects that the display accepts "absolute" bt2020pq colors and shows them on screen using vendor-specific conversions algorithm. It meant that the content creator has no way to color-proof the result. They need to own multiple displays to check that their content "looks good everywhere". That is exactly what ICC technology used to solve, which does not exist in HDR world yet.
+              </p></details>
+            </dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <section id="speakers">
+      <h2>Speakers</h2>
+
+      <p>In alphabetical order, we are pleased to have talks by:</p>
+
+      <article id="abebe">
+        <h3><img src="media/speakers/abebe.jpg" alt="">Mekides Assefa Abebe (NTNU) </h3>
+        <p>I am a permanent researcher at the color and visual computing laboratory, NTNU. I have pursued my PhD in signal and image processing, at Technicolor and University of Poitiers, in 2016. My thesis was mainly focused on adaptation of SDR contents for new HDR displays. My master's study was also in color in informatics and media technology. After the completion of my PhD, I have been working on several research projects such as enhancement of video conferencing quality, image retargeting, image quality enhancement with deep learning, mobile phone camera characterization for accurate skin color correction, and related others. Generally, my area of expertise include HDR imaging, color imaging and perceptual modeling, as well as computer vision. </p>
+      </article>
+
+      <article id="bai">
+        <h3><img src="media/speakers/Chris_Bai_2017-09.png" alt="">Chris Bai (BenQ)</h3>
+        <p>Vice Chair of ICC Display Working Group<br>
+          Senior Color Expert of BenQ Corporation<br>
+          Founder of BenQ Color Technology Lab
+          </p>
+      </article>
+
+      <article id="bremford">
+        <h3><img src="media/speakers/Bremford.jpg" alt="">Mike Bremford (BFO)</h3>
+        <p>Mike Bremford is technical director at bfo.com. He has been working with PDF and CSS for 20 years.</p>
+      </article>
+
+      <article id="cameron">
+        <h3><img src="media/speakers/placeholder.jpg" alt="">Christopher Cameron (Google)</h3>
+        <p>Christopher Cameron works for Google on the Chrome Browser, with an emphasis on computer graphics.</p>
+      </article>
+
+      <article id="cava">
+        <h3><img src="media/speakers/zachary-cava.jpg" alt="">Zachary Cava (Disney)</h3>
+      <p>Zachary Cava is a Media Platform Architect for the Media Engineering team that powers the streaming experiences of Disney+, Hulu, and many other Disney services. He focuses on optimizing current generation streaming solutions to achieve new levels of scale and next generation streaming solutions to enable new experiences that excite and delight users across the full spectrum of devices that these services are available on. He is also an active member of numerous standards bodies working to advance the interoperability of solutions across the streaming industry and bring attention to areas of streaming that have traditionally been a secondary focus of standardization</p>
+      </article>
+
+      <article id="cotton">
+        <h3><img src="media/speakers/placeholder.jpg" alt="">Andrew Cotton (BBC)</h3>
+      <p>Andrew is a Principal Technologist within BBC R&D’s Broadcast &amp; Connected Systems Section. He has a background in video compression and image processing. Andrew and his team work across the entire television acquisition, production, delivery and distribution chains, ensuring the technical integrity of BBC systems. Most recently their work has focused on high dynamic range TV, as Andrew is one of the developers of the Hybrid Log-Gamma HDR system.</p>
+      </article>
+
+      <article id="derhak">
+        <h3><img src="media/speakers/MDPhoto.jpg" alt="">Max Derhak (Onyx Graphics)</h3>
+        <p>Co-Chair of ICC. Chair of ICC Architecture Working Group. Lead developer of RefIccMAX project.</p>
+      </article>
+
+      <article id="erias">
+        <h3><img src="media/speakers/felipe_erias_square.jpg" alt="">Felipe Erias (Igalia) </h3>
+        <p>I am a software engineer and interaction designer, part of the Web Platform team at Igalia. Previously, I worked on the development of different Free SW platforms for mobile and desktop from 2007 to 2014, and then for several years as a R&D designer/engineer.</p>
+
+        <p>For over a year now, I have been implementing new CSS features in Chromium. This included an initial attempt at implementing the lab() and lch() CSS functions to describe colors in the CIE l*a*b color space. Even though this project proved too broad for a single contributor, it gave me the opportunity to research the Chromium platform as well as the relevant literature, current state of the art, and related standards.</p>
+      </article>
+
+      <article id="gilbert">
+        <h3><img src="media/speakers/placeholder.jpg" alt="">Jeff Gilbert (Mozilla)</h3>
+        <p></p>
+      </article>
+
+      <article id="kazakov">
+        <h3><img src="media/speakers/Dmitry.jpg" alt="">Dmitry Kazakov (Krita)</h3>
+        <p>My name is Dmitry Kazakov. I am a developer of Krita painting application (https://krita.org). In 2019 I implemented HDR hardware support in Krita, so I have a bit of experience from the technical side. </p>
+      </article>
+
+      <article id="kunkel">
+        <h3><img src="media/speakers/Timo_Kunkel.jpg" alt="">Timo Kunkel (Dolby)</h3>
+        <p>I've been working with HDR imaging concepts and technologies over the past 15 years. My background is in color science and imaging in general. I've been with Dolby since 2007 and have been involved since then in researching and developing  the core concepts of what is now Dolby Vision. Over the last year, I have been looking into how HDR can be facilitated with canvas based rendering pipelines such as the ones facilitated by the w3c, and how we can use the learnings from linear HDR approaches with web and GUI rendering.</p>
+
+        <p>I hold a PhD in Computer Science from the University of Bristol, UK and a MSc from the University of Freiburg, Germany.
+
+          LinkedIn Profile: www.linkedin.com/in/timo-kunkel</p>
+      </article>
+
+      <article id="lilley">
+        <h3><img src="media/speakers/chris-pic-1k5.jpg" alt="">Chris Lilley (W3C)</h3>
+        <p>Chris Lilley is a Technical Director at the World Wide Web Consortium (W3C)
+          and is the W3C representative to the International Color Consortium (ICC). Considered “the father of SVG”, he also co-authored PNG, was co-editor of CSS2, chaired the group that developed @font-face, and co-developed WOFF. He is co-editor of CSS Color levels 3, 4 and 5.Ex Technical Architecture Group. Chris is still trying to get Color Management on the Web, sigh. Currently working on Color, CSS, Web Audio, and Web Fonts.</p>
+      </article>
+
+      <article id="russell">
+        <h3><img src="media/speakers/RussellHeadshot.jpg" alt="">Kenneth Russell (Google)</h3>
+        <p>Ken Russell works as a software engineer on the Chrome team at Google and is the chair of Khronos' WebGL working group. His work on 3D graphics and the web ecosystem has involved WebGL, Java applets using OpenGL, and SGI's Cosmo Player web plugin for VRML scenes.</p>
+      </article>
+
+      <article id="verou">
+        <h3><img src="media/speakers/Lea_Verou.jpg" alt="">Lea Verou (MIT)</h3>
+        <p>Lea is passionate about improving the Web, a goal that she has been working towards for over a decade, from many different angles. She is heavily involved in web standards, as an elected W3C Technical Architecture Group (TAG) member, as a longtime CSS Working Group Invited Expert, and in the past as W3C staff. She currently works at MIT, doing research at the intersection of HCI and programming languages. She is a well known speaker and author, having written several articles, book chapters, and the bestselling advanced CSS book CSS Secrets. Lea has also started several open source projects and web applications, such as Prism, Mavo, and Awesomplete. Some of her open source work is used on millions of websites. She tweets @leaverou and blogs at lea.verou.me. She holds a MSc in Computer Science from MIT. Despite her technical pursuits, Lea is one of the few misfits who love code and design equally.</p>
+      </article>
+
+      <article id="weining">
+        <h3><img src="media/speakers/placeholder.jpg" alt="">Sam Weining (Apple)</h3>
+        <p>Long time WebKit contributor and W3C member.</p>
+      </article>
+
+      <article id="">
+        <h3><img src="media/speakers/" alt=""></h3>
+        <p></p>
+      </article>
+
+    </section>
+
+    </main>
+    <footer class="footer" id="footer">
+      <p>
+        W3C is proud to be an open and inclusive organization, focused on
+        productive discussions and actions. Our <a href=
+        "https://www.w3.org/Consortium/cepc/">Code of Ethics and Professional
+        Conduct</a> ensures that all voices can be heard. Questions? Contact Chris Lilley &lt;<a href=
+        "mailto:chris@w3.org">chris@w3.org</a>&gt;.
+      </p>
+      <p>
+        Suggestions for improving this workshop page, such as fixing typos or
+        adding specific topics, can be made by opening a <a href=
+        "https://github.com/w3c/web-wcg-hdr-workshop">pull request on GitHub</a>, or by
+        emailing Chris Lilley &lt;<a href=
+        "mailto:chris@w3.org">chris@w3.org</a>&gt;.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

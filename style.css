@@ -514,13 +514,7 @@ span.title {
   order: 1;
 }
 
-summary {
-  display: block;
-}
 
-summary::-webkit-details-marker {
-  display: none;
-}
 
 li:not(.no-details) details summary .desc {
   cursor: pointer;
